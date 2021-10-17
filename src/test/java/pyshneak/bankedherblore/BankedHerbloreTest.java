@@ -1,4 +1,4 @@
-package com.bankedherblore;
+package pyshneak.bankedherblore;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;

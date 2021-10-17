@@ -24,46 +24,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package pyshneak.bankedherblore;
+package pyshneak.bankedherblore.data;
 
-import lombok.Getter;
-import lombok.extern.slf4j.Slf4j;
-import net.runelite.api.Client;
-import net.runelite.client.config.ConfigManager;
-import net.runelite.client.game.ItemManager;
-
-import javax.swing.*;
-import java.awt.*;
-
-@Slf4j
-public class Calculator extends JPanel {
-    private final Client client;
-    private final JLabel xpGainLabel = new JLabel();
-    //private final ConfigManager configManager;
-
-    @Getter
-    private final BankedHerbloreConfig config;
-
-    //@Getter
-    //private final ItemManager itemManager;
-
-
-
-
-    Calculator(Client client, BankedHerbloreConfig config) { //}, ItemManager itemManager, ConfigManager configManager) {
-        this.client = client;
-        this.config = config;
-        //this.itemManager = itemManager;
-        //this.configManager = configManager;
-
-        setLayout(new GridLayout(0, 1, 0, 5));
-
-        add(xpGainLabel);
-        xpGainLabel.setText("I HAVE ADDED A LABEL");
-        revalidate();
-        repaint();
-    }
-
-
-
+public class HerbloreMath {
 }
